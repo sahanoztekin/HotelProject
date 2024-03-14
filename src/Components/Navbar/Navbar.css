@@ -1,0 +1,50 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.navbar-heading {
+  font-family: "futura-pt", sans-serif;
+  color: white;
+  font-weight: 600;
+
+  span {
+    color: #ff5a00;
+  }
+}
+
+.navbar-ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 36px;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-ul li {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-ul li:hover {
+  color: #ff5a00;
+  opacity: 1;
+}
+
+.booknow-btn {
+  width: 136px;
+  height: 44px;
+  background-color: white;
+  color: black;
+  border-color: #fc3e02;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
