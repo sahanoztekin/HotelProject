@@ -11,8 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 461px;
-  height: 496px;
-  margin-right: 65px;
+  margin-bottom: 100px;
   h1 {
     font-family: "futura-pt", sans-serif;
     color: #fc3e02;
@@ -41,6 +40,11 @@
     font-family: "inter", sans-serif;
     border: 1px solid white;
   }
+}
+
+.home-images {
+  padding-left: 65px;
+  margin-bottom: -4px; /*  div ile fotoğraf arasında oluşan mavi boşluğu kapatmak için yapıldı */
 }
 
 @media (min-width: 1441px) {
