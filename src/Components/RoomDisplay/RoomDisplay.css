@@ -1,0 +1,121 @@
+.room-display-container {
+  padding-top: 140px;
+  padding-bottom: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.room-display-title h3 {
+  font-size: 48px;
+  font-family: "futura-pt", sans-serif;
+  color: white;
+  font-weight: 200;
+  span {
+    font-weight: 600;
+  }
+  margin-bottom: 10px;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.room-display-title p {
+  font-family: "inter", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.title-button button {
+  font-size: "inter", sans-serif;
+  color: #ff5a00;
+  background-color: #05050e;
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(37, 37, 37);
+  cursor: pointer;
+}
+
+.room-display-slider {
+  display: flex;
+  gap: 32px;
+  margin-right: -150px;
+}
+
+.panel {
+  background-position: center;
+  color: black;
+  transition: width 0.25s ease-in;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 401px;
+  height: 568px;
+}
+
+.active {
+  width: 513px;
+  box-shadow: -1px -110px 57px -49px rgba(0, 0, 0, 1) inset;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+  opacity: 0;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.price {
+  font-size: 24px;
+  color: white;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.info {
+  margin-top: 12px;
+  color: white;
+  font-weight: 100;
+  opacity: 0.7;
+  font-family: "DM Sans", sans-serif;
+  opacity: 0;
+}
+
+.active .title {
+  opacity: 1;
+}
+
+.active .price {
+  opacity: 1;
+}
+
+.active .info {
+  opacity: 1;
+}
+
+.active .panel-header {
+  opacity: 1;
+}
